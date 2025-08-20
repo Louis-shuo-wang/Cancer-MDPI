@@ -17,4 +17,4 @@ initsetting is a struct consisting of "info" and "params". "info" is a struct st
 
 The first output is "all_snapshots", which is the tumor and vessel agents, TAF field, oxygen field, TAF field information at four times: (initial_time + max_time/4):max_time/4:(initial_time + max_time);
 numerics is a struct consisting of all quantative metrics considered in the project, or all time series data appearing in that project.
-info is the information consisting of all information of discrete and continuous parts for HDC at the lat simulation time t=initial_time+max_time. 
+info is the information consisting of all information of discrete and continuous parts for HDC at the last simulation time t=initial_time+max_time. 
